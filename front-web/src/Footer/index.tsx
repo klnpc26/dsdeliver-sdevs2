@@ -2,6 +2,7 @@ import './styles.css';
 import { ReactComponent as YoutubeIcon } from './youtube.svg';
 import { ReactComponent as InstagramIcon } from './instagram.svg';
 import { ReactComponent as LinkedinIcon } from './linkedin.svg';
+import { ReactComponent as GitIcon } from './git.svg';
 
 function Footer(){
     return (
@@ -14,8 +15,11 @@ function Footer(){
                 <a href="https://www.linkedin.com/in/kaique-lima-nepomuceno-996a451a3/" target="_new">
                     <LinkedinIcon />
                 </a>
-                <a href="https://www.instagram.com/devsuperior.ig/?hl=pt-br">
+                <a href="https://www.instagram.com/klnpc_/?hl=pt-br">
                     <InstagramIcon />
+                </a>
+                <a href="https://github.com/klnpc26">
+                    <GitIcon />
                 </a>
             </div>
         </footer>
