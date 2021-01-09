@@ -14,7 +14,7 @@ type Place = {
     value?: string;
     position: {
         lat: number;
-        lng:number;
+        lng: number;
     };
 }
 
